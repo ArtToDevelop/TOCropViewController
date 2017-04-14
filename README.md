@@ -132,3 +132,6 @@ iOS Device mockups used in the screenshot created by [Robbie Pearce](http://robb
 
 ## License
 TOCropViewController is licensed under the MIT License, please see the [LICENSE](LICENSE) file.
+
+## Additional
+Ilnur was here (testing push).
