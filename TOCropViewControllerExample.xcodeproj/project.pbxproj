@@ -43,6 +43,7 @@
 		22DB4D9A1B234D07008B8466 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DB4D931B234D07008B8466 /* TOCropToolbar.m */; };
 		22DB4D9B1B234D07008B8466 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DB4D951B234D07008B8466 /* TOCropView.m */; };
 		22DB4D9E1B234D4F008B8466 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DB4D9D1B234D4F008B8466 /* TOActivityCroppedImageProvider.m */; };
+		EAD3244E1E814137007EBE17 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EAD3244D1E814137007EBE17 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		6AE313511C47DAA200894C5B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		CDC8C5751C667B9100BB86A4 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
 		CDC8C5771C667B9100BB86A4 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		EAD3244D1E814137007EBE17 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		144B8CCA1D22CAFF0085D774 /* TOCropViewController */ = {
 			isa = PBXGroup;
 			children = (
+				EAD3244D1E814137007EBE17 /* Makefile */,
 				22DB4D881B234D07008B8466 /* Models */,
 				22DB4D8D1B234D07008B8466 /* Views */,
 				144B8CE31D22CE0D0085D774 /* TOCropViewController.h */,
@@ -408,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD3244E1E814137007EBE17 /* Makefile in Sources */,
 				144B8CDA1D22CD730085D774 /* TOCropViewControllerTransitioning.m in Sources */,
 				144B8CDB1D22CD730085D774 /* TOActivityCroppedImageProvider.m in Sources */,
 				144B8CDC1D22CD730085D774 /* TOCroppedImageAttributes.m in Sources */,
