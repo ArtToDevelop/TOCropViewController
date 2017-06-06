@@ -889,7 +889,7 @@
 - (void)setResetAspectRatioEnabled:(BOOL)resetAspectRatioEnabled
 {
     self.cropView.resetAspectRatioEnabled = resetAspectRatioEnabled;
-    self.aspectRatioPickerButtonHidden = (resetAspectRatioEnabled == NO && self.aspectRatioLockEnabled);
+//    self.aspectRatioPickerButtonHidden = (resetAspectRatioEnabled == NO && self.aspectRatioLockEnabled);
 }
 
 - (void)setCustomAspectRatio:(CGSize)customAspectRatio
